@@ -1,5 +1,9 @@
 const RPC = require("discord-rpc");
-const client = new RPC.Client({transport: "ipc"});
+const client = new RPC.Client(
+    {
+        transport: "ipc"
+    }
+);
 
 require('dotenv').config();
 
@@ -15,8 +19,14 @@ const activity = {
 };
 
 client.on("ready", () => {
-    client.request("SET_ACTIVITY", {pid: process.pid, activity: activity});
+    client.request("SET_ACTIVITY", {
+        pid: process.pid, 
+        activity: activity
+    });
+
     console.log("Scratch Discord RPC connected");
 });
 
-client.login({clientId: process.env.CLIENT_ID});
+client.login({
+    clientId: process.env.CLIENT_ID
+});
