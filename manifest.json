@@ -14,5 +14,9 @@
             "48": "/Images/icon_48.png",
             "128": "/Images/icon_128.png"
         }
-    }
+    },
+    "content_scripts": [{
+        "matches": ["https://scratch.mit.edu/projects/*/editor"],
+        "js": ["main.js"]
+    }]
 }
