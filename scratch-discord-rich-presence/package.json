@@ -26,10 +26,15 @@
     "crypto-browserify": "^3.12.1",
     "discord-rpc": "^4.0.1",
     "dotenv": "^16.4.7",
+    "net-browserify": "^0.2.4",
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
+    "path-webpack": "^0.0.3",
     "process": "^0.11.10",
+    "stream": "^0.0.3",
     "stream-browserify": "^3.0.0",
-    "timers-browserify": "^2.0.12"
+    "timers": "^0.1.1",
+    "timers-browserify": "^2.0.12",
+    "worker-timers": "^8.0.11"
   }
 }
