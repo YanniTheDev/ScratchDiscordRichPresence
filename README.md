@@ -30,7 +30,7 @@ Because Google requires a $5 USD payment to be made to upload an extension to th
 To do this, click on the green `CODE` button located next to the **About** section of the repository.
 | ![Green Button](README-Screenshots/S1.png) |
 | :--: |
-|**_ The button is located top right in the screenshot _**|
+|**_The button is located top right in the screenshot_**|
 
 Once you click the button, a popup should appear. Go ahead and **Download ZIP**.
 ![Download ZIP](README-Screenshots/S2.png)
