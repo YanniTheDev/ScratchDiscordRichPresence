@@ -35,10 +35,19 @@ To do this, click on the green `CODE` button located next to the **About** secti
 <br/>
 
 Once you click the button, a popup should appear. Go ahead and **Download ZIP**.
-![Download ZIP](README-Screenshots/S2.png)
+| ![Download ZIP](README-Screenshots/S2.png) |
+| :--: |
+|**_Download ZIP button is right above this caption_**|
+
+<br/>
 
 **Unzip** the folder that you have just downloaded. Double-click into the **unzipped** folder and you should be met with another folder named **ScratchDiscordRichPresence-main**.
 
 Nice you have downloaded the repository!
 
 Now you will have to access the extensions page of your browser. Once you are in there, **turn on developer mode**. There should be a toggle somewhere near the top. In the screenshot below, I am on the Opera GX browser.
+| ![Turn on developer mode](README-Screenshots/S3.png) |
+| :--: |
+|**_Toggle on the developer mode, which is located next to the search bar_**|
+
+<br/>
