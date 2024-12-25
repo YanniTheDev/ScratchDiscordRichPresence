@@ -52,7 +52,7 @@ Now you will have to access the extensions page of your browser. Once you are in
 
 <br/>
 
-Once you have toggled it on, you should have an option to **Load unpacked**. Click on that, locate the **ScratchDiscordRichPresence-main** folder. Double-click the folder, and drag and drop the one folder that is there into the browser.
+Once you have toggled it on, you should have an option to **Load unpacked**. Click on that, locate the **ScratchDiscordRichPresence-main** folder. Double-click the folder, and select the **ONE** folder that is there.
 
 |                          ![Load the extension](README-Screenshots/S4.png)                          |
 | :------------------------------------------------------------------------------------------------: |
