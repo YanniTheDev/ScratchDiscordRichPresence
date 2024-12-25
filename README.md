@@ -32,6 +32,8 @@ To do this, click on the green `CODE` button located next to the **About** secti
 | :--: |
 |**_The button is located top right in the screenshot_**|
 
+<br/>
+
 Once you click the button, a popup should appear. Go ahead and **Download ZIP**.
 ![Download ZIP](README-Screenshots/S2.png)
 
