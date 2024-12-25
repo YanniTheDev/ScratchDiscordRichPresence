@@ -23,7 +23,23 @@
           "https://scratch.mit.edu/projects/*/editor"
         ],
         "js": [
-          "main.js"
+          "project.js"
+        ]
+      },
+      {
+        "matches": [
+          "https://scratch.mit.edu/"
+        ],
+        "js": [
+          "idling.js"
+        ]
+      },
+      {
+        "matches": [
+          "https://scratch.mit.edu/projects/*/"
+        ],
+        "js": [
+          "playing.js"
         ]
       }
     ]

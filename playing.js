@@ -48,10 +48,10 @@ function generatePresence() {
       {
         clientId: clientID,
         presence: {
-          details: "Working on a Scratch project!",
-          largeImageText: "Scratch",
+          details: "Playing a Scratch project!",
           startTimestamp: time,
-          instance: true,
+          largeImageText: "Scratch",
+          instance: true
         }
       }
     );
@@ -61,10 +61,10 @@ function generatePresence() {
       {
         clientId: clientID,
         presence: {
-          details: `Workspace: ${projectName}`,
-          largeImageText: "Scratch",
+          details: `Playing - ${projectName}`,
           startTimestamp: time,
-          instance: true,
+          largeImageText: "Scratch",
+          instance: true
         }
       }
     );
