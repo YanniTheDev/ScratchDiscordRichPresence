@@ -28,7 +28,9 @@ Once it is finished, we can move onto the last step!
 Because Google requires a $5 USD payment to be made to upload an extension to the webstore, there is absolutely no way I am paying. So to install my extension without the webstore, you will have to download this repository as a **zip** file.
 
 To do this, click on the green `CODE` button located next to the **About** section of the repository.
-![Green Button](README-Screenshots/S1.png)
+| ![Green Button](README-Screenshots/S1.png) |
+| :--: |
+|**_ The button is located top right in the screenshot _**|
 
 Once you click the button, a popup should appear. Go ahead and **Download ZIP**.
 ![Download ZIP](README-Screenshots/S2.png)
