@@ -51,3 +51,15 @@ Now you will have to access the extensions page of your browser. Once you are in
 |**_Toggle on the developer mode, which is located next to the search bar_**|
 
 <br/>
+
+Once you have toggled it on, you should have an option to **Load unpacked**. Click on that, locate the **ScratchDiscordRichPresence-main** folder. Double-click the folder, and drag and drop the one folder that is there into the browser.
+
+|                          ![Load the extension](README-Screenshots/S4.png)                          |
+| :------------------------------------------------------------------------------------------------: |
+| **_If you have followed the instructions correctly, you should have this on your extension page_** |
+
+Voila! The extension is now installed and your friends can now see that you are on Scratch, making a project, idling, or playing a game!
+
+## Some Things to Keep in Mind
+
+Remember that the `server_win.exe` application **MUST** be running in order for this rich presence to work. All three applications need to be installed (two browser extensions, and one Node.js application).
