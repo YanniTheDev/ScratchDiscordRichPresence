@@ -16,3 +16,9 @@ If you would like to run the application automatically on boot:
 #### If your computer goes into sleep mode, you will need to restart the application!
 
 #### Other operating system installation guides are on the page!
+
+## Installing the Discord-RPC API Extension
+
+This browser extension allows the Scratch Discord Rich Presence extension to communicate with the server. Simply go to [here](https://chromewebstore.google.com/detail/discord-rich-presence/agnaejlkbiiggajjmnpmeheigkflbnoo) to download it.
+
+Once it is finished, we can move onto the last step!
