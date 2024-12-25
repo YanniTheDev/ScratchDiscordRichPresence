@@ -12,13 +12,50 @@ chrome.runtime.sendMessage(extensionID, {mode: 'passive'}, function(response) {
 
 chrome.runtime.onMessage.addListener(function(info, sender, sendResponse) {
     console.log('Presence requested', info);
-    sendResponse({
-      clientId: clientID,
-      presence: {
-        details: "Working on a Scratch project!",
-        largeImageText: "Scratch",
-        startTimestamp: Date.now(),
-        instance: true,
-      }
-    });
+    sendResponse(generatePresence());
 });
+
+//Setting the date here so that it does not get reset when presence is re-requested
+let time = Date.now();
+
+let windowName = "";
+
+// Get the tab's name once everything is loaded so it isn't the default (Scratch - Imagine, Program, Share)
+window.onload = () => {
+  windowName = document.title;
+}
+
+// The project name without the " on Scratch" (11 characters)
+let projectName = windowName.substring(0, windowName.length - 11);
+
+function generatePresence() {
+
+  //Check if the windowName is not the default Scratch tab name
+  if (windowName === "Scratch - Imagine, Program, Share") {
+    return (
+      {
+        clientId: clientID,
+        presence: {
+          details: "Working on a Scratch project!",
+          largeImageText: "Scratch",
+          startTimestamp: time,
+          instance: true,
+        }
+      }
+    );
+  }
+  else {
+    return (
+      {
+        clientId: clientID,
+        presence: {
+          details: `Working on ${projectName}!`,
+          largeImageText: "Scratch",
+          startTimestamp: time,
+          instance: true,
+        }
+      }
+    );
+  }
+
+}
