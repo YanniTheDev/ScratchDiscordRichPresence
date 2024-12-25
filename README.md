@@ -22,3 +22,17 @@ If you would like to run the application automatically on boot:
 This browser extension allows the Scratch Discord Rich Presence extension to communicate with the server. Simply go to [here](https://chromewebstore.google.com/detail/discord-rich-presence/agnaejlkbiiggajjmnpmeheigkflbnoo) to download it.
 
 Once it is finished, we can move onto the last step!
+
+## Installing the Scratch Discord Rich Presence Extension
+
+Because Google requires a $5 USD payment to be made to upload an extension to the webstore, there is absolutely no way I am paying. So to install my extension without the webstore, you will have to download this repository as a **zip** file.
+
+To do this, click on the green `CODE` button located next to the **About** section of the repository.
+![Green Button](README-Screenshots/S1.png)
+
+Once you click the button, a popup should appear. Go ahead and **Download ZIP**.
+![Download ZIP](README-Screenshots/S2.png)
+
+**Unzip** the folder that you have just downloaded. Double-click into the **unzipped** folder and you should be met with another folder named **ScratchDiscordRichPresence-main**.
+
+Nice you have downloaded the repository!
