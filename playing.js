@@ -65,7 +65,7 @@ function generatePresence() {
           startTimestamp: time,
           largeImageKey: "icon_48",
           largeImageText: "Scratch",
-          largeImageKey: "playing",
+          smallImageKey: "playing",
           instance: true
         }
       }
