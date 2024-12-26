@@ -63,6 +63,7 @@ function generatePresence() {
         presence: {
           details: `Working on - ${projectName}`,
           startTimestamp: time,
+          largeImageKey: "icon_48",
           largeImageText: "Scratch",
           smallImageKey: "coding",
           instance: true
