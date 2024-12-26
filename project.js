@@ -64,6 +64,7 @@ function generatePresence() {
           details: `Working on - ${projectName}`,
           startTimestamp: time,
           largeImageText: "Scratch",
+          smallImageKey: "coding",
           instance: true
         }
       }

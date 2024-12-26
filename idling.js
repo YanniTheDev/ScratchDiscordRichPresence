@@ -19,7 +19,9 @@ chrome.runtime.onMessage.addListener(function(info, sender, sendResponse) {
         presence: {
           details: "Idling on Scratch...",
           startTimestamp: time,
+          largeImageKey: "icon_48",
           largeImageText: "Scratch",
+          smallImageKey: "idle",
           instance: true
         }
     });
